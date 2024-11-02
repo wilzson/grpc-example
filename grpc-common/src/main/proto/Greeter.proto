@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "com.example.grpc.common.proto";
+option java_outer_classname = "GreeterProto";
+
+// The greeting service definition
+service GreeterService{
+  rpc SayHello (HelloRequest) returns (HelloResponse);
+}
+
+service HelloService {
+  rpc SayHello2 (HelloRequest1) returns (HelloResponse1);
+  rpc c2ss(HelloRequest1) returns (stream HelloResponse1);
+  rpc cs2s(stream HelloRequest1) returns (HelloResponse1);
+  rpc cs2ss(stream HelloRequest1) returns (stream HelloResponse1);
+}
+
+// 定义消息体
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string message = 1;
+}
+
+message HelloRequest1 {
+  repeated string name = 1;
+}
+
+message HelloResponse1 {
+  string message = 1;
+}
