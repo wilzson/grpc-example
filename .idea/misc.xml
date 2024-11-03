@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/grpc-common/pom.xml" />
         <option value="$PROJECT_DIR$/grpc-server/pom.xml" />
         <option value="$PROJECT_DIR$/grpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-server-bootstarter/pom.xml" />
+        <option value="$PROJECT_DIR$/grpc-client-bootstarter/pom.xml" />
       </list>
     </option>
   </component>

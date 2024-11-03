@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: grpc-server-boot-starter
+  main:
+    web-application-type: none
+
+# 核心配置 grpc的端口号
+grpc:
+  server:
+    port: 8000

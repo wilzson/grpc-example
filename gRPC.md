@@ -397,6 +397,14 @@ public class GrpcClientApplication6 {
 
 ```xm
 // 客户端
+<dependency>
+   <groupId>net.devh</groupId>
+   <artifactId>grpc-client-spring-boot-starter</artifactId>
+   <version>2.0.1.RELEASE</version>
+</dependency>
+```
 
+```java
+@GrpcClient()
 ```
 

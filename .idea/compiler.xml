@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="grpc-server-bootstarter" />
         <module name="grpc-client" />
+        <module name="grpc-client-bootstarter" />
         <module name="grpc-server" />
         <module name="demoRPC" />
         <module name="grpc-common" />
@@ -18,8 +20,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demoRPC" options="-parameters" />
       <module name="grpc-client" options="-parameters" />
+      <module name="grpc-client-bootstarter" options="-parameters" />
       <module name="grpc-common" options="-parameters" />
       <module name="grpc-server" options="-parameters" />
+      <module name="grpc-server-bootstarter" options="-parameters" />
     </option>
   </component>
 </project>
